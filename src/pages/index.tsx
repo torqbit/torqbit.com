@@ -58,7 +58,7 @@ const Top = () => {
 
 const Home = () => {
   const { siteConfig } = useDocusaurusContext()
-  const title = "Heapland"
+  const title = "Torqbit"
 
   return (
     <PageLayout
