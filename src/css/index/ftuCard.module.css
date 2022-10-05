@@ -1,0 +1,241 @@
+.title {
+  font-size: 3.5rem;
+  margin-right: 20px;
+}
+
+.second__section__title,
+.app__info,
+.app__name,
+.github__star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__info {
+  border: 2px solid #01525e;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 22px;
+  border-radius: 99999px;
+}
+.app__name {
+  padding: 16px;
+  gap: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.github__star {
+  display: inline-flex;
+  padding: 16px;
+  align-items: center;
+  border-left: 2px solid #01525e;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image__container {
+  margin-top: 4rem;
+}
+
+.semi__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.features__cards {
+  display: flex;
+  justify-content: flex-start;
+  margin: 25px 0;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.feature__card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 220px;
+  padding: 40px;
+  max-width: 410px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(43, 56, 84, 0.5) 0%,
+    rgba(33, 42, 64, 0.45) 100%
+  );
+  padding-top: 32px;
+  border-radius: 4px;
+}
+.feature__title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.feature__icon {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.supportdb_tabs_container {
+  width: 70vw !important;
+}
+
+.supportdb_tab_tab {
+  background: #16192e;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.db__logo_containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #121029;
+  padding: 20px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.db__logo_containers > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+
+.supportdb__db_logo {
+  width: 4.5rem;
+  height: 4.5rem;
+  background: #2f3141;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supportdb__container {
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.supportdb__left__content {
+  flex-basis: 40%;
+}
+.supportdb__first__title {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+}
+.supportdb__first__title > span {
+  font-size: 2.4rem;
+  color: #fff;
+}
+.supportdb__scnd__title {
+  font-size: 2.4rem;
+  padding-left: 55px;
+  font-weight: 500;
+  margin: 15px 0 40px 0;
+}
+.supportdb__desc {
+  padding-left: 55px;
+}
+
+.supportdb__right__content {
+  display: flex;
+  justify-content: center;
+  gap: 20px 60px;
+  flex-basis: 60%;
+  flex-wrap: wrap;
+}
+.supportdb__right__content > img {
+  max-width: 180px;
+  height: 120px;
+}
+
+@media (max-width: 1160px) {
+  .supportdb__scnd__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 996px) {
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .app__info {
+    font-size: 25px;
+    margin-left: 0;
+  }
+  .github__star,
+  .app__name {
+    padding: 13px;
+  }
+  .semi__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  .features__cards {
+    justify-content: center;
+    gap: 25px 15px;
+  }
+  .feature__card {
+    max-width: 500px;
+  }
+
+  .supportdb__container {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  .supportdb_tab_tab {
+    flex-direction: row;
+  }
+  .supportdb__right__content {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 776px) {
+  .title {
+    font-size: 2.2rem;
+  }
+  .app__info {
+    font-size: 20px;
+  }
+}
+@media (max-width: 635px) {
+  .second__section__title {
+    flex-direction: column;
+    gap: 20px 0;
+  }
+}
+@media (max-width: 426px) {
+  .db__logo_containers {
+    gap: 0 10px;
+  }
+  .supportdb__db_logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 10px;
+  }
+  .db__logo_containers > a > span {
+    font-size: 1rem;
+  }
+  .supportdb_tab_tab > li {
+    font-size: 1rem;
+  }
+  .app__info {
+    margin-left: 0;
+  }
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .image__container {
+    margin-top: 2rem;
+  }
+}
